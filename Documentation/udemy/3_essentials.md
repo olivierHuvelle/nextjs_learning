@@ -28,3 +28,16 @@ dynamic routes
 [param] comme nom de dossier 
 réception d'une prop params avec comme clef ce qui est passé exemple params.param dans ce cas 
 
+foodies starting app 
+meals 
+meals/share 
+community routes 
+note ... je n'écris pas tout ce que je fais uniquement les points à relire potentiellement dans second temps 
+
+optimisation des images avec Image component (ex lazy loading, adaptation de la size en fonction du vp, adaptation du format en fonction du navigateur) 
+[doc](https://nextjs.org/docs/app/api-reference/components/image)
+
+ok on ajoute un peu de css et des composants assez génériques => il gueule pour le slidedhow parce que state (et que server-side-component) 
+idem pour les event listeners (ce qui est assez logique) 
+si le composant est un client component = 'use client' en première ligne du fichier 
+
